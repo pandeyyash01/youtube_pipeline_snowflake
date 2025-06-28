@@ -46,11 +46,11 @@ git clone https://github.com/<your-username>/youtube_pipeline_snowflake.git
 cd youtube_pipeline_snowflake ---
 
 
-Install Required Packages
+## ****Install Required Packages****
 pip install -r requirements.txt
 
 
-Create a config.py File
+**Create a config.py File**
 
 YOUTUBE_API_KEY = "AIzaSyCI0jYWzs1JPQI6nbBVLqax5Na0HIbz3Ek"
 
@@ -62,26 +62,23 @@ SNOWFLAKE_DATABASE = 'YOUTUBE_DB'
 SNOWFLAKE_SCHEMA = 'PUBLIC'
 SNOWFLAKE_TABLE = 'YOUTUBE_VIDEO_STATS'
 
-Run the Scripts
+**Run the Scripts**
 python fetch_youtube_data.py
 python upload_to_snowflake.py
 
-Use Cases
-Monitor video performance metrics (views, likes, comments)
+**Use Cases**
+- Monitor video performance metrics (views, likes, comments)
+- Historical tracking of YouTube video stats
+- Learn to integrate APIs with cloud data warehouses
+- Hands-on experience for Data Engineering interviews
 
-Historical tracking of YouTube video stats
-
-Learn to integrate APIs with cloud data warehouses
-
-Hands-on experience for Data Engineering interviews
-
-🙌 Author
+**🙌 Author**
 Yashraj Pandey
 Aspiring Data Engineer | Python, SQL, Snowflake
-📧 yashraj@email.com
-🔗 LinkedIn : https://www.linkedin.com/in/yashraj-pandey/
+📧 pandeyyash042000@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/yashraj-pandey/
 
-🛡️ Disclaimer
-This project is for learning and portfolio use only.
-Never expose API keys or credentials publicly.
-Use .gitignore to exclude sensitive files like config.py from GitHub
+**🛡️ Disclaimer**
+- This project is for learning and portfolio use only.
+- Never expose API keys or credentials publicly.
+- Use .gitignore to exclude sensitive files like config.py from GitHub
